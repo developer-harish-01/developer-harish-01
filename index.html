@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./Pages/Style/nav.css">
+    <link rel="stylesheet" href="./Pages/Style/responcive.css">
+    <title>Hold On Software Tech</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="./Assets/logo.png" alt="">
+            </div>
+            <ul class="nav-list">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#">File</a></li>
+                <li><a href="#GetInTouch">Contact</a></li>
+                <li><a href="#">Pages</a></li>
+                <li><a href="#services">Services</a></li>
+            </ul>
+
+            <div class="buttons">
+                <div class="btn">Log In</div>
+                <div class="btn btn-sign-up">Sign Up</div>
+            </div>
+
+            <div onclick="handleMenuBtn()" class="menu-btn">
+                <div class="menu-lines"></div>
+                <div class="menu-lines"></div>
+                <div class="menu-lines"></div>
+            </div>
+
+
+        </nav>
+
+    <!-- responcive time Nav Box -->
+    <div class="responcive-nav" id="responcive-nav">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#">File</a></li>
+            <li><a href="#GetInTouch">Contact</a></li>
+            <li><a href="#">Pages</a></li>
+            <li><a href="#services">Services</a></li>
+        </ul>
+        
+        <div class="buttons">
+            <div class="btn btn-log-in">Log In</div>
+            <div class="btn btn-sign-up">Sign Up</div>
+        </div>
+    </div>
+    </header>
+
+
+    <!-- home section -->
+    <section class="home" id="home">
+        <div class="details-container">
+            <h1>
+                Let's Create A Software According to Your Requirements
+            </h1>
+
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis delectus eveniet impedit et tenetur?
+                Officia ea cum quis tenetur provident.</p>
+
+            <div class="buttons">
+                <div class="btn btn-contact">
+                    <a href="./Pages/contact.html">Contact Now</a>
+                </div>
+
+                <div class="btn btn-play">
+                    <img src="./Assets/play-icon.png" alt="" width="70px">
+                    <span>watch how it works</span>
+                </div>
+            </div>
+        </div>
+        <div class="details-img">
+            <img src="./Assets/home-side-img.png" alt="">
+        </div>
+
+    </section>
+
+    <!-- our services -->
+    <section class="services" id="services">
+        <h2 class="hadline">Our Services</h2>
+        <h1>
+            We Ensure The Best Services <span>For Our Clients</span>
+        </h1>
+
+        <div class="services-card-group">
+
+            <div class="card">
+                <h2>Software Development</h2>
+                <p>lorem ipsum dolor sit amet consectetur. A turpis dolor mauris duis.</p>
+            </div>
+            <div class="card">
+                <h2>Website Development</h2>
+                <p>lorem ipsum dolor sit amet consectetur. A turpis dolor mauris duis.</p>
+            </div>
+            <div class="card">
+                <h2>Application Developement</h2>
+                <p>lorem ipsum dolor sit amet consectetur. A turpis dolor mauris duis.</p>
+            </div>
+            <div class="card">
+                <h2>Game Developement</h2>
+                <p>lorem ipsum dolor sit amet consectetur. A turpis dolor mauris duis.</p>
+            </div>
+            <div class="card">
+                <h2>Managed IT Services</h2>
+                <p>lorem ipsum dolor sit amet consectetur. A turpis dolor mauris duis.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- about section -->
+    <section class="about" id="about">
+        <div class="about-side-img">
+            <img src="./Assets/about-side-img.png" alt="">
+        </div>
+        <div class="about-details">
+            <h2 class="hadline">About Us</h2>
+            <h1>
+                <span>We Are The Best</span> <span>Software Developing </span>company In The World
+            </h1>
+            <p>
+                Lorem ipsjm dolor sit amet consectetur. Consectetur molestie sem ac sollicitudin. Quis nisl consectetur
+                pellentesque vitae enim. Viverra eget ut habitasse mi at aliquam pellentesque. Proin nec malesuada
+                platea iaculis amet eget rhoncus. Pellentesque dui id nullam sapien imperdiet id sem consequat
+                vestibulum odia.
+            </p>
+
+            <div class="about-btn">Read More</div>
+        </div>
+    </section>
+
+    <!-- Why choose Us -->
+    <section class="choose">
+        <div class="choose-details">
+            <h2 class="hadline">Why Choose Us</h2>
+            <h1>There Are Nine Reasone <span>For Choosing Us</span></h1>
+
+            <ul>
+                <li><span>&#xf35a;</span> Scalability to Accommodate Business Growth</li>
+                <li><span>&#xf35a;</span> Access to latest Technologies</li>
+                <li><span>&#xf35a;</span> Time Optimization</li>
+                <li><span>&#xf35a;</span> Expertise and Specialization</li>
+                <li><span>&#xf35a;</span> Long-term Cost Savings and ROI</li>
+                <li><span>&#xf35a;</span> Increased Security and Data Protection</li>
+                <li><span>&#xf35a;</span> Ongoing Maintenance and Support</li>
+                <li><span>&#xf35a;</span> Faster Time-to-Market for Products and Services</li>
+                <li><span>&#xf35a;</span> Customized Solutions for Unique Business Needs</li>
+            </ul>
+
+        </div>
+        <div class="choose-side-img">
+            <div class="img-back"></div>
+            <img src="./Assets/choose-side-img.png" alt="">
+        </div>
+    </section>
+
+    <!-- Our Experts -->
+    <section class="experts" id="experts">
+        <h2 class="hadline">Our Experts</h2>
+        <h1>Meet All Of Our Experts</h1>
+        <div class="experts-card-group">
+            <div class="card">
+                <div class="card-image">
+                    <div class="expert-back"></div>
+                    <img src="./Assets/team/EstherHoward.png" alt="Jane Cooper" width="150px">
+                </div>
+                <div class="card-details">
+                    <h3>Esther Howard</h3>
+                    <p>Software Engineer</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-image">
+                    <div class="expert-back"></div>
+                    <img src="./Assets/team/JennyWelson.png" alt="Jane Cooper" width="150px">
+                </div>
+                <div class="card-details">
+                    <h3>Jenny Welson</h3>
+                    <p>Web Developer</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-image">
+                    <div class="expert-back"></div>
+                    <img src="./Assets/team/JacobJones.png" alt="Jane Cooper" width="150px">
+                </div>
+                <div class="card-details">
+                    <h3>Jacob Jones</h3>
+                    <p>Programmer</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-image">
+                    <div class="expert-back"></div>
+                    <img src="./Assets/team/JaneCooper.png" alt="Jane Cooper" width="150px">
+                </div>
+                <div class="card-details">
+                    <h3>Jane Cooper</h3>
+                    <p>Ui Ux Designer</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Claint Saies -->
+    <section>
+
+    </section>
+
+    <!-- Get In Touch -->
+    <section class="GetInTouch" id="GetInTouch">
+        <div class="details">
+            <div class="logo">
+                <img src="./Assets/logo.png" alt="">
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptate impedit expedita sunt! Autem dolorem
+                nam, consequatur voluptatum aut quisquam. Nemo eveniet autem.</p>
+        </div>
+        <div class="input-box">
+            <h2>Get In Touch</h2>
+            <div class="email-box">
+                <input type="email" placeholder="Enter Your Email">
+                <div class="btn">Subscribe</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Links  -->
+    <section class="links">
+        <ul>
+            <li>
+                <h2>Quick Links</h2>
+            </li>
+            <li><a href="./Pages/contact.html">Contacts</a></li>
+            <li><a href="#">FAQS</a></li>
+            <li><a href="#">Blogs</a></li>
+            <li><a href="#">News</a></li>
+            <li><a href="#">Pages</a></li>
+        </ul>
+        <ul>
+            <li>
+                <h2>Services</h2>
+            </li>
+            <li><a href="#">Software Development</a></li>
+            <li><a href="#">Website Developement</a></li>
+            <li><a href="#">Application Services</a></li>
+            <li><a href="#">Digital Transformation</a></li>
+            <li><a href="#">Game Developement</a></li>
+        </ul>
+        <ul>
+            <li>
+                <h2>About Us</h2>
+            </li>
+            <li><a href="#">Our Portfolio</a></li>
+            <li><a href="#experts">Our Experts</a></li>
+            <li><a href="#">How It Works</a></li>
+            <li><a href="#">How To Order</a></li>
+            <li><a href="#">Arrange Meeting</a></li>
+        </ul>
+        <ul>
+            <li>
+                <h2>Contact Us</h2>
+            </li>
+            <li>Location</li>
+            <li>7568560603</li>
+            <li>Social media Account</li>
+        </ul>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p> © Copyright Hold On Software Tech 2024, All rights reserved</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
